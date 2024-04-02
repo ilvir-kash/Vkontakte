@@ -9,12 +9,10 @@ import UIKit
 
 class AllGroupsTableViewController: UITableViewController {
 
-    var allGroups = ["ЧБД", "ДТП", "БашДТП", "Смс", "Приколы", "Книги", "ГУФ", "Фильмы", "Кино", "Юмор"]
+    var allGroups: [Gru] = [.init(name: "qwe", imageName: "Arshavin", post1: [])]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
 
     // MARK: - Table view data source
@@ -33,7 +31,7 @@ class AllGroupsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: AGroupsTableViewCell.reuseIdentifier, for: indexPath) as! AGroupsTableViewCell
 
         let group = allGroups[indexPath.row]
-        cell.configure(title: group, image: UIImage(systemName: "bolt"))
+        cell.configure(title: group.name, image: UIImage(systemName: "bolt"))
         return cell
     }
     
