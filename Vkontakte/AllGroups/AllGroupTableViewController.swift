@@ -13,8 +13,6 @@ class AllGroupsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //"ЧБД", "ДТП", "БашДТП", "Смс", "Приколы", "Книги", "ГУФ", "Фильмы", "Кино", "Юмор"
     }
 
     // MARK: - Table view data source
