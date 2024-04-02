@@ -49,9 +49,9 @@ class MyGroupsTableViewController: UITableViewController {
         
         let group = sourceController.allGroups[index.row]
         
-//        if !groups.contains(group){
-//            groups.append(group)
-//        }
+        if !groups1.contains(group) {
+            groups1.append(group)
+        }
         
         tableView.reloadData()
     }

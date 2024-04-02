@@ -7,14 +7,14 @@
 
 import UIKit
 
-struct Gru {
+struct Gru: Equatable {
     let name: String
     let imageName: String
     let post1: [Post1]
 }
 
 
-struct Post1 {
+struct Post1: Equatable {
     let text: String
     let imageName: String
 }
