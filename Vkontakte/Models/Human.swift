@@ -19,3 +19,6 @@ struct Post {
     let imageName: String
     
 }
+
+
+

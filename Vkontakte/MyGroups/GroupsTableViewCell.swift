@@ -18,9 +18,9 @@ class GroupsTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
 
-    func configure(title: String?, image: UIImage?) {
-        titleCell.text = title
-        imageViewCell.image = image
+    func configure(gr:Gru) {
+        titleCell.text = gr.name
+        imageViewCell.image = .init(named: "\(gr.imageName)")
     }
 
 }
