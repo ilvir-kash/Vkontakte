@@ -37,7 +37,7 @@ class PhotoCollectionViewController: UICollectionViewController, UICollectionVie
         cell.iconImageView.image = .init(named: post.imageName)
         cell.lableView.text = post.text
         
-        cell.iconImageView.layer.cornerRadius = 50
+        cell.iconImageView.layer.cornerRadius = 40
         
         
         return cell
