@@ -20,7 +20,7 @@ class MyFriendsTableViewController: UITableViewController {
                 .init(text: "Матч 2022", imageName: "AR1")
             ]
         ),
-        .init(name: "Петров", imageName: "petrov", post: [.init(text: "Первые пробы", imageName: "PR1")])
+        .init(name: "Петров", imageName: "PR2", post: [.init(text: "Первые пробы", imageName: "PR1")])
     ]
     
     

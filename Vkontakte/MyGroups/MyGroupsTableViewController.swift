@@ -14,13 +14,13 @@ class MyGroupsTableViewController: UITableViewController {
             name: "NR",
             imageName: "nr1",
             post1: [
-                .init(text: "про рэп", imageName: "nr2"),
-                .init(text: "новинки", imageName: "nr3")]),
+                .init(text: "про рэп, популярные песни, и новости про рэп", imageName: "nr2"),
+                .init(text: "новинки, самые свежие песни", imageName: "nr3")]),
         .init(
             name: "MDK",
             imageName: "mdk1",
             post1: [
-                .init(text: "новые посты", imageName: "mdk2"),
+                .init(text: "новые посты, последняя публикация, все о важном", imageName: "mdk2"),
                 .init(text: "новинки", imageName: "mdk3")])
     ]
     
