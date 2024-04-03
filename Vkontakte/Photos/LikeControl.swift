@@ -88,7 +88,7 @@ final class LikeControl: UIView {
         likeCountLabel.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         likeCountLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
         
-        imageView.leftAnchor.constraint(equalTo: likeCountLabel.rightAnchor).isActive = true
+        imageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 60).isActive = true
         imageView.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         imageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
         imageView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
